@@ -7,4 +7,4 @@ My Links:
 - LeetCode: https://leetcode.com/u/Izzzy/
 - Linkedin:  https://www.linkedin.com/in/souopjj
 - YouTube: https://www.youtube.com/@souopjj
-- https://play.picoctf.org/users/xxer00
+- picoCTF: https://play.picoctf.org/users/xxer00
