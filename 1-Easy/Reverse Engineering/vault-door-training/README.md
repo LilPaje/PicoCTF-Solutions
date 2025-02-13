@@ -60,8 +60,8 @@ String userInput = scanner.next();
 ```
 are probably for the Input text, which is the the same Input we saw before when we executed the code. The _Stromg Input_ is probably where the CTF password if stored, since it has the same format (__picoCTF{}__).
 Here it goes a simples explanation for what is going on inside the _input_ variable: 
-> Imagine the user typed the key following the picoCTF format "picoCTF{key}"
-> So the code creates a substring of the _userInput_ variable, which starts at the length of "picoCTF{" (which is 8) and ends on the last -1 character, excluding the last "}" character. 
+- Imagine the user typed the key following the picoCTF format "picoCTF{key}"
+- So the code creates a substring of the _userInput_ variable, which starts at the length of "picoCTF{" (which is 8) and ends on the last -1 character, excluding the last "}" character. 
 
 After that we compare to a function we will talk later. Basically if the return of the function is _True_, this is our password. If return _False_, well... It's not. 
 
